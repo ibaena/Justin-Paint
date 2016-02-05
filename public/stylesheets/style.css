@@ -24,3 +24,12 @@ nav .brand:hover {
 .parallax-container img {
   max-width:100%;
 }
+
+#title{
+  font-family: 'Allura', cursive;
+}
+
+ul li {
+    display: inline;
+    text-align: center;
+}
