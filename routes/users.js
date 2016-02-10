@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+router.get('/click', function(req, res, next) {
+  res.sendFile('./Bootcamp2/clickgame/home.html')
 });
 
 module.exports = router;
